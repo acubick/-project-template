@@ -6,7 +6,7 @@ export default class Hello extends BaseComponent {
   constructor() {
     super();
   }
-  console.log('hi')
+
   get template() {
     return `
       <div class="container py-4 px-3 mx-auto ${styles.container}">
